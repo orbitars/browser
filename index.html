@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head -->
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="icon" href="icon.png" />
+        <title>Orbitar</title>
+        <!-- /Meta -->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <!-- Carousel CSS -->
+        <link rel="stylesheet" href="css/carousel.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Fadein CSS -->
+        <link rel="stylesheet" href="css/fadein.css" />
+        <!-- Poppins CSS -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800," />
+    </head>
+    <!-- /Head -->
+    <!-- Body -->
+    <body>
+        <div class="container fade-in" style="font-family: Poppins">
+            <!-- Title Row -->
+            <div class="row d-flex justify-content-center text-center o-slow-anim" id="title-row">
+                <div class="col-md-7">
+                    <h2 class="o-medium">Bring Space to your own space</h2>
+                    <h6 class="o-thin">Combining Augmented Reality structures and Geo-Location technologies, Orbitar brings the future of educative experiences to your own hands. </h6>
+                </div>
+            </div>
+            <!-- /Title Row -->
+            <!-- QR Row -->
+            <div class="row justify-content-center text-center" style="margin-top: 50px;">
+                <div>
+                    <img src="qrs/qr_2.png" width="100" class="o-qr" id="qr" />
+                    <h6 class="o-mt10 o-thin">Scan Me!</h5>
+                </div>
+            </div>
+            <!-- /QR Row -->
+            <!-- Carousel Row -->
+            <div class="row d-flex justify-content-center" style="overflow-y: hidden; overflow-x: hidden;">
+                <div class="o-row-inner">
+                    <div class="o-display" onmouseover="update_qr(1); fade_else()" onmouseout="unfade_else()">
+                        <div class="o-display-media">
+                            <img class="o-display-img" src="screenshots/demo_1.png" alt="Mars" />
+                        </div>
+                        <div class="o-display-details">
+                            <div class="o-display-title">
+                                🌕 Kyle Clark
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-display" onmouseover="update_qr(2); fade_else()" onmouseout="unfade_else()">
+                        <div class="o-display-media">
+                            <img class="o-display-img" src="screenshots/demo_2.png" alt="Earth" />
+                        </div>
+                        <div class="o-display-details">
+                            <div class="o-display-title">
+                                🌎 Robert Mirabelle
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-display" onmouseover="update_qr(3); fade_else()" onmouseout="unfade_else()">
+                        <div class="o-display-media">
+                            <img class="o-display-img" src="screenshots/demo_3.png" alt="Probe" />
+                        </div>
+                        <div class="o-display-details">
+                            <div class="o-display-title">
+                                🛰️ Poly (Google)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-display" onmouseover="update_qr(4); fade_else()" onmouseout="unfade_else()">
+                        <div class="o-display-media">
+                            <img class="o-display-img" src="screenshots/demo_4.png" alt="Spaceship" />
+                        </div>
+                        <div class="o-display-details">
+                            <div class="o-display-title">
+                                🚀 Liz Reddington
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-display" onmouseover="update_qr(5); fade_else()" onmouseout="unfade_else()">
+                        <div class="o-display-media">
+                            <img class="o-display-img" src="screenshots/demo_5.png" alt="Moon" />
+                        </div>
+                        <div class="o-display-details">
+                            <div class="o-display-title">
+                                🌑 Poly (Google)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-display" onmouseover="update_qr(1); fade_else()" onmouseout="unfade_else()">
+                        <div class="o-display-media">
+                            <img class="o-display-img" src="screenshots/demo_1.png" alt="Mars" />
+                        </div>
+                        <div class="o-display-details">
+                            <div class="o-display-title">
+                                🌕 Kyle Clark
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-display" onmouseover="update_qr(2); fade_else()" onmouseout="unfade_else()">
+                        <div class="o-display-media">
+                            <img class="o-display-img" src="screenshots/demo_2.png" alt="Earth" />
+                        </div>
+                        <div class="o-display-details">
+                            <div class="o-display-title">
+                                🌎 Robert Mirabelle
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-display" onmouseover="update_qr(3); fade_else()" onmouseout="unfade_else()">
+                        <div class="o-display-media">
+                            <img class="o-display-img" src="screenshots/demo_3.png" alt="Probe" />
+                        </div>
+                        <div class="o-display-details">
+                            <div class="o-display-title">
+                                🛰️ Poly (Google)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-display" onmouseover="update_qr(4); fade_else()" onmouseout="unfade_else()">
+                        <div class="o-display-media">
+                            <img class="o-display-img" src="screenshots/demo_4.png" alt="Spaceship" />
+                        </div>
+                        <div class="o-display-details">
+                            <div class="o-display-title">
+                                🚀 Liz Reddington
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-display" onmouseover="update_qr(5); fade_else()" onmouseout="unfade_else()">
+                        <div class="o-display-media">
+                            <img class="o-display-img" src="screenshots/demo_5.png" alt="Moon" />
+                        </div>
+                        <div class="o-display-details">
+                            <div class="o-display-title">
+                                🌑 Poly (Google)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Carousel Row -->
+            <!-- Footer Row -->
+            <div class="row justify-content-center text-center o-slow-anim" style="margin-top: -10" id="footer-row">
+                <div>
+                    <h6 class="o-semi-thin">Orbitar 2020 • Powered by <a href="https://poly.google.com/">Google Poly</a></h6>
+                    <h6 class="o-semi-thin">Made with ❤️ <a href="https://github.com/orbitars">@Orbitars</a></h6>
+                </div>
+            </div>
+            <!-- /Footer Row -->
+            <!-- Refresh Scripts -->
+            <script type="text/javascript" src="js/refresh.js"></script>
+            <!-- /Refresh Scripts -->
+        </div>
+    </body>
+    <!-- /Body -->
+</html>

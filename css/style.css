@@ -1,0 +1,23 @@
+.o-mt10 {
+    margin-top: 10px;
+}
+.o-thin {
+    font-weight: 300;
+}
+.o-semi-thin {
+    font-weight: 400;
+}
+.o-medium {
+    font-weight: 500;
+}
+.o-qr{
+    transition: all 0.2s ease-out;
+    border-radius: 3px;
+}
+.o-qr:hover{
+    transform: translateY(-5px);
+    cursor: grab;
+}
+.o-slow-anim{
+    transition: all 0.3s ease-out;
+}
