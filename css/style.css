@@ -10,14 +10,19 @@
 .o-medium {
     font-weight: 500;
 }
-.o-qr{
-    transition: all 0.2s ease-out;
-    border-radius: 3px;
+.o-qr {
+    border-radius: 35px;
+    border: 30px solid black;
 }
-.o-qr:hover{
+.o-qr-holder {
+    border: 15px solid white;
+    border-radius: 10px;
+    transition: all 0.2s ease-out;
+}
+.o-qr-holder:hover {
     transform: translateY(-5px);
     cursor: grab;
 }
-.o-slow-anim{
+.o-slow-anim {
     transition: all 0.3s ease-out;
 }
